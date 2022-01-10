@@ -25,9 +25,35 @@
     top: -50px;
     z-index: -1;
 }
+.dummy{
+    display: flex;
+}
 .dummy div{
     border: 1px solid red;
     height: 100px;
     width: 100px;
     background-color: olive;
+}
+table{
+    margin: 20px;
+    border-collapse: collapse;
+}
+th, td {
+    border: 2px solid springgreen;
+    padding: 10px;
+}
+thead{
+    background-color: tomato;
+    color: mediumblue;
+}
+tbody{
+    background-color: mediumseagreen;
+    color: oldlace;
+}
+table caption{
+    color:rgb(43, 143, 84);
+    margin-bottom: 10px;
+    border: 3px double rgb(88, 45, 24);
+    font-size: 20px;
+    font-weight: 900;
 }
