@@ -83,3 +83,34 @@ table caption{
 .support a, h2{
     color: white;
 }
+.cricket-animation{
+    margin-left: 205px;
+    margin-bottom: 200px;
+    margin-top: 50px;
+}
+.field{
+    border: 1px solid ;
+}
+.animation{
+    text-align: center;
+    text-decoration: underline;
+}
+.field:hover .bat{
+    transform: rotate(-50deg);
+    transform-origin: top right;
+}
+.ball{
+    position: relative;
+    left: 287px;
+    height: 40px;
+    width: 40px;
+    background-color: red;
+    border-radius: 20px;
+    transition: transform 1s ease-out .3s;
+}
+.field:hover .ball{
+    transform: translate(800px, -100px);
+}
+.bat{
+    transition: transform .3s ease-in;
+}
